@@ -1,0 +1,32 @@
+html, body, #app, main {
+    height: 100%;
+}
+h1, h2, p {
+    font-family: "Comic Sans MS", "Arial";
+}
+body {
+    font-family: "Comic Sans MS", "Arial";
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(to bottom, gold, orange);
+  }
+  
+  header {
+    background-color: gold;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  #app {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
